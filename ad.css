@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Tilt Typeface Warp';
+    src:url(../fonts/Tilt-Typeface-master/fonts/ttf/TiltWarp[HROT\,VROT].ttf);
+}
+
+@font-face {
+    font-family: 'Tilt Typeface Neon';
+    src:url(../fonts/Tilt-Typeface-master/fonts/TTF/TiltNeon[HROT\,VROT].ttf);
+}
+
+@font-face {
+    font-family: '';
+    src:url();
+}
+
+.container {
+    width: 336px;
+    height: 280px;
+    border: solid 1px gray;
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%,-50%);
+}
+
+.image {
+    width: 100%;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+}
+
+.title {
+    color: orange;
+    font-family: 'Tilt Typeface Warp';
+    font-size: 24px;
+    left: 20px;
+    bottom: 250px;
+    letter-spacing: 0.03px;
+    position: absolute;
+}
+
+.text {
+    font-size: 1.0em;
+    left: 95px;
+    bottom: 230px;
+    font-size: 14px;
+    color: orange;
+    position: absolute;
+    text-align: center;
+    font-family: 'Tilt Typeface Neon';
+}
+
+.tagline {
+    font-size: 1.0em;
+    left: 15px;
+    bottom: 150px;
+    right: 30px;
+    color: orange;
+    position: absolute;
+    font-family: 'Tilt Typeface Neon';
+    text-align: center;
+}
+
+.link {
+    display: block;
+    border: solid 2px orange;
+    color: orange;
+    padding: 10px;
+    position: absolute; 
+    left: 85px;
+    top: 200px;
+    bottom: 0px; 
+    height: 10px;
+    
+    
+}
+
+.link:hover {
+    color: orange;
+    background-color: orangered;
+    transition: 0.4s;
+    
+} 
+
